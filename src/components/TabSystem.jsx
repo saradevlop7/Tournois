@@ -29,10 +29,5 @@ function TabSystem({ activeTab, onChange }) {
     </div>
   )
 }
-
-
-
-
-
 export default TabSystem
 

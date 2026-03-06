@@ -18,6 +18,10 @@ for(let i = 0; i < tournaments.length; i++) {
     </div>
   </div>
   `;
+
+
+
+  
 }
 
 html += `</div>`;
