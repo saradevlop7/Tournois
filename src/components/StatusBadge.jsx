@@ -4,20 +4,5 @@ export function StatusBadge(status){
   if(status === "Pending") return `<span class="badge rounded-pill bg-warning text-dark ms-2">${status}</span>`;
   return `<span class="badge rounded-pill bg-secondary ms-2">${status}</span>`;
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
 }
 

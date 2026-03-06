@@ -30,5 +30,8 @@ function TabSystem({ activeTab, onChange }) {
   )
 }
 
+
+
+
 export default TabSystem
 
