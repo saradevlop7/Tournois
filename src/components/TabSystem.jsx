@@ -4,6 +4,8 @@ const TABS = [
   { id: 'bracket', label: 'Bracket' },
 ]
 
+
+
 function TabSystem({ activeTab, onChange }) {
   return (
     <div className="px-4 pt-3 border-b border-slate-100 bg-white">

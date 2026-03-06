@@ -4,17 +4,9 @@ import { StatusBadge } from "./components/StatusBadge.jsx";
 const app = document.getElementById("app");
 
 let html = `<h2 class="mb-4">Tournaments</h2><div class="row">`;
-
-
-
-
 for(let i = 0; i < tournaments.length; i++) {
   const t = tournaments[i];
   html += `
-
-
-
-  
   <div class="col-12 col-md-6 col-lg-4 mb-4">
     <div class="card shadow-sm h-100">
       <div class="card-body">
@@ -29,8 +21,7 @@ for(let i = 0; i < tournaments.length; i++) {
 
 
 
-
-
+  
 }
 
 html += `</div>`;
