@@ -12,6 +12,8 @@ for(let i = 0; i < tournaments.length; i++) {
   const t = tournaments[i];
   html += `
 
+
+
   
   <div class="col-12 col-md-6 col-lg-4 mb-4">
     <div class="card shadow-sm h-100">
