@@ -5,6 +5,9 @@ const app = document.getElementById("app");
 
 let html = `<h2 class="mb-4">Tournaments</h2><div class="row">`;
 
+
+
+
 for(let i = 0; i < tournaments.length; i++) {
   const t = tournaments[i];
   html += `
@@ -21,7 +24,9 @@ for(let i = 0; i < tournaments.length; i++) {
 
 
 
-  
+
+
+
 }
 
 html += `</div>`;
